@@ -1,4 +1,9 @@
 /** @format */
-.emailList__settingsLeft {
-  color: grey;
+
+.emailList {
+  flex: 1;
+}
+.emailList__settings {
+  display: flex;
+  justify-content: space-between;
 }
