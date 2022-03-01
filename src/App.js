@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./app/Header.js";
 import Sidebar from "./app/Sidebar.js";
 import Routers from "./app/Routers.js";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (

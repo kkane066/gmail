@@ -1,3 +1,5 @@
+/** @format */
+
 .SidebarOption {
   display: flex;
   align-items: center;
@@ -30,6 +32,7 @@
   margin-left: 10px;
   font-size: 14px;
   font-weight: 400;
+  padding-right: 50px;
 }
 .SidebarOption > p {
   display: none;

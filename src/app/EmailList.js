@@ -10,10 +10,11 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import KeyboardIcon from "@mui/icons-material/Keyboard";
 import SettingsIcon from "@mui/icons-material/Settings";
-import Section from "./Section";
+import Section from "./Section.js";
 import InboxIcon from "@mui/icons-material/Inbox";
 import PeopleIcon from "@mui/icons-material/People";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
+import EmailRow from "./EmailRow";
 
 function EmailList() {
   return (
@@ -49,12 +50,37 @@ function EmailList() {
       </div>
       <div className="emailList__section">
         <Section Icon={InboxIcon} title="Primary" color="red" selected />
-        <Section Icon={PeopleIcon} title="Social" color="blue" selected />
+        <Section
+          Icon={PeopleIcon}
+          title="Social"
+          color="blue"
+          // selected
+        />
         <Section
           Icon={LocalOfferIcon}
           title="Promotions"
           color="green"
-          selected
+          // selected
+        />
+      </div>
+      <div className="emailList__list">
+        <EmailRow
+          title="Twitch"
+          subject="Hey fellow streamer!!!"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hey fellow streamer!!!"
+          description="This is a test This is a test This is a test This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Twitch"
+          subject="Hey fellow streamer!!!"
+          description="We need"
+          time="10pm"
         />
       </div>
     </div>

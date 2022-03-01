@@ -11,7 +11,10 @@ function Section({ Icon, title, color, selected }) {
         borderBottom: `3px solid ${color}`,
         color: `${selected && color}`,
       }}
-    ></div>
+    >
+      <Icon />
+      <h4>{title}</h4>
+    </div>
   );
 }
 

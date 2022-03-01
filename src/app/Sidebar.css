@@ -16,5 +16,6 @@
   justify-content: center;
 }
 .Sidebar {
-  width: 20vw;
+  flex: 0.4;
+  max-width: 300px;
 }

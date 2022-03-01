@@ -1,9 +1,7 @@
 /** @format */
 
 .emailList {
-  display: flex;
   padding-left: 30px;
-  /* overflow: scroll; */
 }
 .emailList__setting {
   display: flex;
@@ -12,20 +10,11 @@
   background-color: white;
   z-index: 999;
   padding-right: 10px;
-  width: 100vw;
 }
 .emailList__section {
-  background-color: red;
-}
-
-/* .emailList__settingLeft {
+  position: sticky;
+  top: 0;
   display: flex;
-  width: 50%;
-  background-color: aqua;
+  border-bottom: 1px solid whitesmoke;
+  z-index: 999;
 }
-.emailList__settingRight {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  background-color: aquamarine;
-} */
