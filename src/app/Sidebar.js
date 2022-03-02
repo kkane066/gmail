@@ -14,7 +14,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import PersonIcon from "@mui/icons-material/Person";
 import DuoIcon from "@mui/icons-material/Duo";
 import PhoneIcon from "@mui/icons-material/Phone";
-import { IconButton, requirePropFactory } from "@mui/material";
+import { IconButton } from "@mui/material";
 import SidebarOption from "./SidebarOption";
 
 function Sidebar() {
