@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./app/Header.js";
 import Sidebar from "./app/Sidebar.js";
 import Routers from "./app/Routers.js";
+import SendMail from "./app/SendMail.js";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Sidebar />
         <Routers />
       </div>
+      <SendMail />
     </div>
   );
 }
