@@ -25,20 +25,20 @@ function SendMail() {
           name="to"
           placeholder="To"
           type="text"
-          ref={register({ required: true })}
+          // ref={register({ required: true })}
         />
         <input
           name="subject"
           placeholder="Subject"
           type="text"
-          ref={register({ required: true })}
+          // ref={register({ required: true })}
         />
         <input
           name="message"
           placeholder="Message..."
           type="text"
           className="sendMail__message"
-          ref={register({ required: true })}
+          // ref={register({ required: true })}
         />
 
         <div className="sendMail__options">
